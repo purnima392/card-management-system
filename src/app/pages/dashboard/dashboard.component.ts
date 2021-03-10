@@ -26,8 +26,8 @@ export class DashboardComponent implements OnInit {
 
       tooltips: {
         backgroundColor: '#f5f5f5',
-        titleFontColor: '#333',
-        bodyFontColor: '#666',
+        titleFontColor: '#1d253b',
+        bodyFontColor: '#1d253b',
         bodySpacing: 4,
         xPadding: 12,
         mode: "nearest",
@@ -40,14 +40,14 @@ export class DashboardComponent implements OnInit {
           barPercentage: 1.6,
           gridLines: {
             drawBorder: false,
-            color: 'rgba(29,140,248,0.0)',
+            color: '#1d253b',
             zeroLineColor: "transparent",
           },
           ticks: {
             suggestedMin: 60,
             suggestedMax: 125,
             padding: 20,
-            fontColor: "#2380f7"
+            fontColor: "#1d253b"
           }
         }],
 
@@ -55,12 +55,12 @@ export class DashboardComponent implements OnInit {
           barPercentage: 1.6,
           gridLines: {
             drawBorder: false,
-            color: 'rgba(29,140,248,0.1)',
+            color: '#1d253b',
             zeroLineColor: "transparent",
           },
           ticks: {
             padding: 20,
-            fontColor: "#2380f7"
+            fontColor: "#1d253b"
           }
         }]
       }
@@ -74,8 +74,8 @@ export class DashboardComponent implements OnInit {
 
       tooltips: {
         backgroundColor: '#f5f5f5',
-        titleFontColor: '#333',
-        bodyFontColor: '#666',
+        titleFontColor: '#1d253b',
+        bodyFontColor: '#1d253b',
         bodySpacing: 4,
         xPadding: 12,
         mode: "nearest",
@@ -88,14 +88,14 @@ export class DashboardComponent implements OnInit {
           barPercentage: 1.6,
           gridLines: {
             drawBorder: false,
-            color: 'rgba(29,140,248,0.0)',
+            color: '#1d253b',
             zeroLineColor: "transparent",
           },
           ticks: {
             suggestedMin: 60,
             suggestedMax: 125,
             padding: 20,
-            fontColor: "#9a9a9a"
+            fontColor: "#1d253b"
           }
         }],
 
@@ -103,12 +103,12 @@ export class DashboardComponent implements OnInit {
           barPercentage: 1.6,
           gridLines: {
             drawBorder: false,
-            color: 'rgba(225,78,202,0.1)',
+            color: '#1d253b',
             zeroLineColor: "transparent",
           },
           ticks: {
             padding: 20,
-            fontColor: "#9a9a9a"
+            fontColor: "#1d253b"
           }
         }]
       }
@@ -122,8 +122,8 @@ export class DashboardComponent implements OnInit {
 
       tooltips: {
         backgroundColor: '#f5f5f5',
-        titleFontColor: '#333',
-        bodyFontColor: '#666',
+        titleFontColor: '#1d253b',
+        bodyFontColor: '#1d253b',
         bodySpacing: 4,
         xPadding: 12,
         mode: "nearest",
@@ -136,14 +136,14 @@ export class DashboardComponent implements OnInit {
           barPercentage: 1.6,
           gridLines: {
             drawBorder: false,
-            color: 'rgba(29,140,248,0.0)',
+            color: 'rgba(233,32,16,0.1)',
             zeroLineColor: "transparent",
           },
           ticks: {
             suggestedMin: 60,
             suggestedMax: 125,
             padding: 20,
-            fontColor: "#9a9a9a"
+            fontColor: "#1d253b"
           }
         }],
 
@@ -156,7 +156,7 @@ export class DashboardComponent implements OnInit {
           },
           ticks: {
             padding: 20,
-            fontColor: "#9a9a9a"
+            fontColor: "#1d253b"
           }
         }]
       }
@@ -170,8 +170,8 @@ export class DashboardComponent implements OnInit {
 
       tooltips: {
         backgroundColor: '#f5f5f5',
-        titleFontColor: '#333',
-        bodyFontColor: '#666',
+        titleFontColor: '#1d253b',
+        bodyFontColor: '#1d253b',
         bodySpacing: 4,
         xPadding: 12,
         mode: "nearest",
@@ -218,8 +218,8 @@ export class DashboardComponent implements OnInit {
 
       tooltips: {
         backgroundColor: '#f5f5f5',
-        titleFontColor: '#333',
-        bodyFontColor: '#666',
+        titleFontColor: '#1d253b',
+        bodyFontColor: '#1d253b',
         bodySpacing: 4,
         xPadding: 12,
         mode: "nearest",
@@ -239,7 +239,7 @@ export class DashboardComponent implements OnInit {
             suggestedMin: 50,
             suggestedMax: 125,
             padding: 20,
-            fontColor: "#9e9e9e"
+            fontColor: "#1d253b"
           }
         }],
 
@@ -252,7 +252,7 @@ export class DashboardComponent implements OnInit {
           },
           ticks: {
             padding: 20,
-            fontColor: "#9e9e9e"
+            fontColor: "#1d253b"
           }
         }]
       }
@@ -267,8 +267,8 @@ export class DashboardComponent implements OnInit {
 
       tooltips: {
         backgroundColor: '#f5f5f5',
-        titleFontColor: '#333',
-        bodyFontColor: '#666',
+        titleFontColor: '#1d253b',
+        bodyFontColor: '#1d253b',
         bodySpacing: 4,
         xPadding: 12,
         mode: "nearest",
@@ -288,7 +288,7 @@ export class DashboardComponent implements OnInit {
             suggestedMin: 60,
             suggestedMax: 120,
             padding: 20,
-            fontColor: "#9e9e9e"
+            fontColor: "#1d253b"
           }
         }],
 
@@ -301,7 +301,7 @@ export class DashboardComponent implements OnInit {
           },
           ticks: {
             padding: 20,
-            fontColor: "#9e9e9e"
+            fontColor: "#1d253b"
           }
         }]
       }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { Action } from "rxjs/internal/scheduler/Action";
 
 @Component({
   selector: "view-customer",
@@ -7,15 +8,14 @@ import { Component, OnInit } from "@angular/core";
 export class ViewCustomerComponent implements OnInit {
     constructor() {}
   ngOnInit() {}
-
   columnDefs = [
-    { headerName: "Name", field: 'name', width: '180', sortable: true, filter: true, checkboxSelection: true },
-    { headerName: "Account #", field: 'account', width: '160', sortable: true, filter: true},
-    { headerName: "P.Address", field: 'pAddress', width: '170', sortable: true, filter: true},
-    { headerName: "T.Address", field: 'tAddress', width: '170', sortable: true, filter: true},
-    { headerName: "Mobile #", field: 'mobile', width: '120', sortable: true, filter: true},
-    { headerName: "Citizenship #", field: 'citizenship', width: '120', sortable: true, filter: true},
-    { headerName: "Action", field: 'action', cellRenderer: this.CustomerActionRender, width: '137', sortable: true, filter: true,}
+    { headerName: "Name", field: 'name', sortable: true, filter: true, checkboxSelection: true, resizable: true, minWidth: 200},
+    { headerName: "Account #", field: 'account', sortable: true, filter: true, resizable: true,  minWidth: 200},
+    { headerName: "P.Address", field: 'pAddress', sortable: true, filter: true, resizable: true,  minWidth: 200},
+    { headerName: "T.Address", field: 'tAddress', sortable: true, filter: true, resizable: true,  minWidth: 200},
+    { headerName: "Mobile #", field: 'mobile', sortable: true, filter: true, resizable: true, minWidth: 200},
+    { headerName: "Citizenship #", field: 'citizenship', sortable: true, filter: true, resizable: true, minWidth: 200},
+    { headerName: "Action", field: 'action', cellRenderer: this.CustomerActionRender, sortable: true, filter: true, resizable: true, minWidth: 200}
 ];
 
 rowData = [
@@ -33,7 +33,6 @@ rowData = [
 ];
 public CustomerActionRender(params) {
   let templateHtml = "";
-  let patient = params.data;
   templateHtml += `<a href="#" class="grid-action">
               <i class="far fa-edit"></i>
            </a>

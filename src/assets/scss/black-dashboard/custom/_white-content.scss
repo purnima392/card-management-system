@@ -11,7 +11,7 @@
   .navbar.navbar-transparent .navbar-nav li a:not(.dropdown-item){
       color: $black-states;
       & i{
-        color: $black-states;
+        // color: $black-states;
       }
   }
 
@@ -32,7 +32,7 @@
   .sidebar{
     // box-shadow: 0 2px 22px 0 rgba(0,0,0,.1), 0 4px 20px 0 rgba(0,0,0,.15);
     p{
-      color: $opacity-8;
+      color: $white;
     }
   }
 
@@ -182,7 +182,8 @@
 
 
     label:not(.btn){
-      color: $default;
+      color: $black-states;
+      font-weight: $font-weight-bold;
     }
 
 
@@ -227,7 +228,7 @@
   .table{
 
       > tbody > tr > td {
-        color: rgba($black, 0.7) !important;
+        color: $black-states!important;
 
     }
 
@@ -250,7 +251,7 @@
     }
 
     > thead > tr > th, button.btn-neutral.btn-link{
-      color: rgba($black, 0.7);
+      color:$black-states
     }
   }
 
@@ -314,14 +315,15 @@
   padding: 1rem;
   h2 {
     font-size: $font-size-lg;
-    font-weight: $font-weight-bold;
+    font-weight: $font-weight-extra-bold;
     margin-bottom: 10px;
-    color: $gray-600;
+    color: $black-states;
   }
   p {
     margin-bottom: 0;
-    color: $gray-600;
+    color: $black-states;
     font-size: $font-size-sm;
+    font-weight: $font-weight-bold;
   }
 }
 .welcome-image {
@@ -351,12 +353,15 @@
   .card-detail {
     width: 100%;
     display: flex;
+    color: $black-states;
     .card-name {
       display: inline-block;
       width: 50%;
       p {
         margin-bottom: 0;
         font-size: $font-size-sm;
+        color: $black-states;
+        font-weight: $font-weight-bold;
       }
     }
     .progress-wrapper {
@@ -388,6 +393,7 @@
     color: $white;
     margin: 15px 5px 0 5px;
     letter-spacing: 0.5px;
+    font-weight: $font-weight-bold;
     &:first-child {
       margin-left: 0;
     }
@@ -478,5 +484,11 @@ app-sidebar {
   }
   .ag-root-wrapper {
     border: none;
+  }
+}
+.filter-wrap {
+  h3 {
+    font-size: $font-size-lg;
+    color: $black-states;
   }
 }
