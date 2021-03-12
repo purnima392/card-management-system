@@ -21,7 +21,27 @@
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Card Number">
         </div>
-        <ngb-datepicker #dp [(ngModel)]="model" (navigate)="date = $event.next"></ngb-datepicker>  
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Start Date">
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="End Date">
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="End Date">
+        </div>
+        <div class="form-group">
+          <select class="form-select form-control" aria-label="Default select example">
+            <option selected>Requested by</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+        <div class="col-auto">
+          <button type="submit" class="btn btn-warning">Confirm identity</button>
+        </div>
+        <!-- <ngb-datepicker #dp [(ngModel)]="model" (navigate)="date = $event.next"></ngb-datepicker>   -->
       </form>
     </div>
   </div>

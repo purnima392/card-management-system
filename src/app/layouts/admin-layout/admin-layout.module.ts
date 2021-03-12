@@ -18,7 +18,6 @@ import { ViewCustomerComponent } from "src/app/pages/customer/view-customer.comp
 import { AgGridModule } from 'ag-grid-angular';
 import { AddNewproductComponent } from "src/app/pages/newproduct/add-newproduct.component";
 import { ViewProductComponent } from "src/app/pages/newproduct/view-product.component";
-import { NgbdDatepickerRange } from "src/app/components/datepicker/datepicker";
 
 @NgModule({
   imports: [
@@ -27,8 +26,6 @@ import { NgbdDatepickerRange } from "src/app/components/datepicker/datepicker";
     FormsModule,
     HttpClientModule,
     NgbModule,
-    NgbdDatepickerRange,
-    NgbDatepickerModule,
     AgGridModule.withComponents([])
   ],
   declarations: [
